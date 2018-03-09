@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Learning TypeScript</title>
+        <!-- loading the file directly without any loaders -->
+        <!-- <script src="./index.js"></script> -->
+
+        <!-- loading the file using module loader systemjs -->
+       <script src="node_modules/systemjs/dist/system.js"></script> 
+
+       <!-- loading the files using webpack -->
+       <!-- <script src="bundle.js"></script>  -->
+    </head>
+    <body>
+            <h1>TypeScript Demo</h1>
+        <script>
+
+//used when you import systemjs  
+ SystemJS.import("index.js");
+
+        </script>
+    </body>
+</html>
